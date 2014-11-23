@@ -5,23 +5,21 @@
 ## Function: run_analysis
 ## returns:  tidy data set containing average for each activity/subject combination
 ## data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-##              Data has to be unzipped into working directory and the folder
-##              has to be named "data"
-##
+##              Data has to be unzipped into working directory
 ## by: t-grab
 
 run_analysis <- function() {    
     # Reading needed data
-    training.subject <- read.table("./data/train/subject_train.txt")
-    training.X       <- read.table("./data/train/X_train.txt")
-    training.y       <- read.table("./data/train/y_train.txt")
+    training.subject <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+    training.X       <- read.table("./UCI HAR Dataset/train/X_train.txt")
+    training.y       <- read.table("./UCI HAR Dataset/train/y_train.txt")
+	
+    test.subject     <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+    test.X           <- read.table("./UCI HAR Dataset/test/X_test.txt")
+    test.y           <- read.table("./UCI HAR Dataset/test/y_test.txt")
     
-    test.subject     <- read.table("./data/test/subject_test.txt")
-    test.X           <- read.table("./data/test/X_test.txt")
-    test.y           <- read.table("./data/test/y_test.txt")
-    
-    features         <- read.table("./data/features.txt")
-    activity_labels  <- read.table("./data/activity_labels.txt")
+    features         <- read.table("./UCI HAR Dataset/features.txt")
+    activity_labels  <- read.table("./UCI HAR Dataset/activity_labels.txt")
     
     # Merging training and test data set fragments to get 
     # complete training and test data sets
