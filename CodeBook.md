@@ -65,7 +65,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 All work is done within the function "run_analysis()" which is defined in the R script "run_analysis.R".
 
-It uses the training and test data set of the estimated variables described in the section above, as well as the files containing the variable names, the activity labels and the subject identifieres. All those files can be found in the folder "UCI HAR Dataset", the training/test specific files are found in the equally named subfolder.
+It uses the training and test data set of the estimated variables described in the section above, as well as the files containing the variable names, the activity labels and the subject identifieres. All those files can be found in the folder "UCI HAR Dataset", the training/test specific files are found in the equally named subfolders.
 
 The following actions and transformations are performed on the files by the script to obtain an reduced and aggregated tidy dataset:
 

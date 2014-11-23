@@ -15,7 +15,7 @@ data by the script "run_analysis.R" to create the tidy datset.
 
 - run_analysis.R: R script to perform the transformations on the training and test dataset of the UCI HAR dataset to create one tidy dataset. Afterwards it aggregates the tidy dataset by activity and subject and returns this aggregated dataset.
 
-- tidyDataSet.*: Tidy dataset created by "run_analysis.R" in different formats
+- tidyDataSet.*: Tidy dataset created by "run_analysis.R" in different formats.
 
 - README.md
 
