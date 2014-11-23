@@ -67,7 +67,7 @@ All work is done within the function "run_analysis()" which is defined in the R 
 
 It uses the training and test data set of the estimated variables described in the section above, as well as the files containing the variable names, the activity labels and the subject identifieres. All those files can be found in the folder "UCI HAR Dataset", the training/test specific files are found in the equally named subfolder.
 
-The following actions and transformations are performed on the files by the script:
+The following actions and transformations are performed on the files by the script to obtain an reduced and aggregated tidy dataset:
 
 1. Loading the relevant data
 2. Binding the the feature matrix with the output vector and the subject vector for both the training and the test dataset

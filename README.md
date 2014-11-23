@@ -8,12 +8,12 @@ of the Coursera "Data Science" specialization.
 - UCI HAR Dataset: Dataset obtained from several experiments carried out by smartlab entitled
 "Human Activity Recognition Using Smartphones Dataset". This project uses Version 1.0. It contains
 sensor data from smartphones carried by 30 different volunteers in different activities. For more information
-see the the README.txt in the "UCI HAR Dataset" folder.
+see the the README.txt in the "UCI HAR Dataset" folder. The data can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 - CodeBook.md: Contains descriptions of the variables, the data and transformations applied to the 
 data by the script "run_analysis.R" to create the tidy datset.
 
-- run_analysis.R: R script to perform the transmations on the UCI HAR dataset to create the tidy dataset
+- run_analysis.R: R script to perform the transformations on the training and test dataset of the UCI HAR dataset to create one tidy dataset. Afterwards it aggregates the tidy dataset by activity and subject and returns this aggregated dataset.
 
 - tidyDataSet.*: Tidy dataset created by "run_analysis.R" in different formats
 
