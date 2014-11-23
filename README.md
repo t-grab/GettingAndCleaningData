@@ -3,6 +3,8 @@ Getting and Cleaning Data - Course Project
 This is t-grab's repository for the "Getting and Cleaning Data" course 
 of the Coursera "Data Science" specialization.
 
+The goal of the project is to transform the UCI HAR Dataset into a tidy dataset.
+
 ## Parts of the Project
 
 - UCI HAR Dataset: Dataset obtained from several experiments carried out by smartlab entitled
